@@ -1,4 +1,8 @@
-SonicEsp8266
+## SonicEsp8266
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/33c21115-f03a-4614-88ca-55cdfffba49c" width="600">
+</p>
+
 
 Sonic animation and side-scrolling mini-game for ESP8266 (NodeMCU) and OLED SSD1306 display.
 1. Requirements
