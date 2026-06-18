@@ -39,7 +39,7 @@ SonicEsp8266 is a microcontroller project built with an ESP8266 and an SSD1306 O
 
 
 ## Prototype
-<img src="https://github.com/user-attachments/assets/b20ff7c6-08ba-45e5-9f43-d258ccb73bc8)" width="250">
+<img src="https://github.com/user-attachments/assets/b20ff7c6-08ba-45e5-9f43-d258ccb73bc8" width="250">
 
 ## Installation
 
