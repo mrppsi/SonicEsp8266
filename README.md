@@ -28,17 +28,25 @@ SonicEsp8266 is a microcontroller project built with an ESP8266 and an SSD1306 O
 
 * ESP8266 Development Board
 * SSD1306 OLED Display (128x64)
-* Jumper Wires
+* Push Buttons
+* Breadboard
 * USB Cable
+
 
 ## Wiring
 
-| OLED | ESP8266 |
+| OLED | ESP8266 | 
 | ---- | ------- |
 | VCC  | 3.3V    |
 | GND  | GND     |
 | SDA  | D2      |
 | SCL  | D1      |
+
+|    BUTTONS     | 
+| ---- | ------- |
+| LEFT | D3      |
+| RIGHT| D4      |
+| JUMP | D5      |
 
 
 ## Prototype
