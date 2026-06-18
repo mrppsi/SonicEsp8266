@@ -63,4 +63,4 @@ Upload the sketch to the ESP8266 using Arduino IDE.
 * IoT project foundations
 
 ## Prototype
-![SonicEsp8266](https://github.com/mrppsi/SonicEsp8266/issues/2#issue-4689649119)
+![SonicEsp8266](https://github.com/user-attachments/assets/b20ff7c6-08ba-45e5-9f43-d258ccb73bc8)
