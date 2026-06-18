@@ -1,46 +1,71 @@
-## SonicEsp8266
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/33c21115-f03a-4614-88ca-55cdfffba49c" width="600">
-</p>
+# SonicEsp8266
 
+![SonicEsp8266](https://github.com/user-attachments/assets/33c21115-f03a-4614-88ca-55cdfffba49c)
 
-Sonic animation and side-scrolling mini-game for ESP8266 (NodeMCU) and OLED SSD1306 display.
-1. Requirements
+SonicEsp8266 is a microcontroller project built with an ESP8266 and an SSD1306 OLED display. The project demonstrates I2C communication, embedded programming, and real-time information display on a compact OLED screen.
 
-    Hardware: * NodeMCU ESP8266
+It serves as a foundation for IoT, monitoring, and sensor-based applications.
 
-        OLED SSD1306 (128x64, I2C)
+## Stack
 
-        3 Pushbuttons (Left, Right, Jump)
+* ESP8266
+* Arduino Framework
+* C++
+* I2C Communication Protocol
+* SSD1306 OLED Display
+* Arduino IDE
 
-    Libraries: Adafruit SSD1306 and Adafruit GFX (via Arduino Library Manager).
+## Features
 
-    Setup: Rename all data .txt files to .h (e.g., intro.txt → intro_data.h) so the Arduino IDE includes them during compilation.
+* OLED display initialization
+* I2C communication setup
+* Real-time text rendering
+* Embedded systems programming
+* Expandable architecture for sensors and IoT devices
 
-2. Wiring
-Button	ESP8266 Pin
-Jump	D3
-Right	D5
-Left	D4
-Note: Connect the other side of all buttons to GND. Use INPUT_PULLUP in code.	
-3. How it Works
+## Hardware
 
-    Memory: Bitmap arrays are stored in PROGMEM using namespaces to prevent variable conflicts.
+* ESP8266 Development Board
+* SSD1306 OLED Display (128x64)
+* Jumper Wires
+* USB Cable
 
-    Logic:
+## Wiring
 
-        INTRO_NORMAL: Automated animation sequence.
+| OLED | ESP8266 |
+| ---- | ------- |
+| VCC  | 3.3V    |
+| GND  | GND     |
+| SDA  | D2      |
+| SCL  | D1      |
 
-        INTRO_INTERACTIVA: Static menu with blinking "PRESS JUMP".
+## Installation
 
-        JUGANDO: Implements physics (gravity), 3-button movement (left/right/jump), and procedural obstacle scrolling.
+```bash
+git clone https://github.com/mrppsi/SonicEsp8266.git
+```
 
-    Non-blocking: Uses millis() for animation timing and button debouncing.
+Install the required libraries:
 
-4. Code structure
+* Adafruit SSD1306
+* Adafruit GFX
+* Wire
 
-    SonicEsp8266.ino: Main state machine and game physics.
+Upload the sketch to the ESP8266 using Arduino IDE.
 
-    intro.h / sonic.h: Wrapper headers for animation namespaces.
+## Skills Demonstrated
 
-    *_data.h: Raw bitmap arrays.
+* Embedded systems development
+* Microcontroller programming
+* Hardware-software integration
+* I2C communication
+* OLED display management
+* IoT project foundations
+
+## Future Improvements
+
+* Sensor integration
+* Wi-Fi connectivity
+* MQTT support
+* Web dashboard
+* Remote monitoring features
