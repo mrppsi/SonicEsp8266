@@ -62,10 +62,5 @@ Upload the sketch to the ESP8266 using Arduino IDE.
 * OLED display management
 * IoT project foundations
 
-## Future Improvements
-
-* Sensor integration
-* Wi-Fi connectivity
-* MQTT support
-* Web dashboard
-* Remote monitoring features
+## Prototype
+![SonicEsp8266](https://github.com/mrppsi/SonicEsp8266/issues/2#issue-4689649119)
