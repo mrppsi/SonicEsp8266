@@ -4,8 +4,6 @@
 
 SonicEsp8266 is a microcontroller project built with an ESP8266 and an SSD1306 OLED display. The project demonstrates I2C communication, embedded programming, and real-time information display on a compact OLED screen.
 
-It serves as a foundation for IoT, monitoring, and sensor-based applications.
-
 ## Stack
 
 * ESP8266
@@ -39,6 +37,10 @@ It serves as a foundation for IoT, monitoring, and sensor-based applications.
 | SDA  | D2      |
 | SCL  | D1      |
 
+
+## Prototype
+<img src="https://github.com/user-attachments/assets/b20ff7c6-08ba-45e5-9f43-d258ccb73bc8)" width="250">
+
 ## Installation
 
 ```bash
@@ -61,6 +63,3 @@ Upload the sketch to the ESP8266 using Arduino IDE.
 * I2C communication
 * OLED display management
 * IoT project foundations
-
-## Prototype
-![SonicEsp8266](https://github.com/user-attachments/assets/b20ff7c6-08ba-45e5-9f43-d258ccb73bc8)
