@@ -67,3 +67,6 @@ Install the required libraries:
 
 Upload the sketch to the ESP8266 using Arduino IDE.
 
+
+Soon new updates and fixes sprites and physics. :) 
+
