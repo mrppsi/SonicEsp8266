@@ -5,7 +5,9 @@
 </p>
 
 
-SonicEsp8266 is a microcontroller project built with an ESP8266 and an SSD1306 OLED display. The project demonstrates I2C communication, embedded programming, and real-time information display on a compact OLED screen.
+SonicEsp8266 is a retro-style embedded game built on an ESP8266 and an SSD1306 OLED display.
+Inspired by classic endless runner games, the player controls Sonic using physical push buttons, collecting rings while avoiding obstacles displayed on a 128x64 OLED screen.
+The project demonstrates embedded programming, game logic implementation, OLED graphics rendering, and hardware integration using the ESP8266 platform.
 
 ## Stack
 
