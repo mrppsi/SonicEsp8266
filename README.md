@@ -58,11 +58,3 @@ Install the required libraries:
 
 Upload the sketch to the ESP8266 using Arduino IDE.
 
-## Skills Demonstrated
-
-* Embedded systems development
-* Microcontroller programming
-* Hardware-software integration
-* I2C communication
-* OLED display management
-* IoT project foundations
